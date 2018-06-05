@@ -8,7 +8,7 @@ import (
 	"fmt"
 )
 
-func FileServe(w http.ResponseWriter, res *http.Request, _ httprouter.Params) {
+func FileServe(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
 	c := redis_wrapper.Client{}
 	client, err := c.Create()
 	if err != nil {
