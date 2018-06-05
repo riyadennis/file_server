@@ -1,6 +1,5 @@
 package: github.com/file_server
 import:
-- package: github.com/go-redis/redis
-  version: ^6.12.0
+- package: github.com/riyadennis/redis-wrapper
 - package: github.com/sirupsen/logrus
   version: ^1.0.5

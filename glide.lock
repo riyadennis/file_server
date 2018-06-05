@@ -1,5 +1,5 @@
-hash: 910dd1718b2d779be8aeda056f45562719cc9a21fa936f38f8c2fe17848e4fec
-updated: 2018-06-05T23:02:07.405201368+01:00
+hash: bd60771d607e00d12ae68b40b022ff907cc8c006069f782c427da2ebc496dfd3
+updated: 2018-06-05T23:50:55.753950422+01:00
 imports:
 - name: github.com/go-redis/redis
   version: 83fb42932f6145ce52df09860384a4653d2d332a
@@ -11,6 +11,10 @@ imports:
   - internal/proto
   - internal/singleflight
   - internal/util
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/riyadennis/redis-wrapper
+  version: 8bf7197482901a1f72dd3553bf566be620da4f9f
 - name: github.com/sirupsen/logrus
   version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
 - name: golang.org/x/crypto
