@@ -1,0 +1,25 @@
+hash: 910dd1718b2d779be8aeda056f45562719cc9a21fa936f38f8c2fe17848e4fec
+updated: 2018-06-05T23:02:07.405201368+01:00
+imports:
+- name: github.com/go-redis/redis
+  version: 83fb42932f6145ce52df09860384a4653d2d332a
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+  - internal/singleflight
+  - internal/util
+- name: github.com/sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: golang.org/x/crypto
+  version: bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 8eb05f94d449fdf134ec24630ce69ada5b469c1c
+  subpackages:
+  - unix
+  - windows
+testImports: []
