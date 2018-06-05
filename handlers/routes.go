@@ -8,12 +8,12 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-
 type ApiResponse struct {
 	Status int
 	Detail string
 	Title  string
 }
+
 func Run(port string) {
 	route := httprouter.New()
 	route.GET("/files", FileServe)
@@ -37,4 +37,3 @@ func createResponse(detail, title string, status int) *ApiResponse {
 		Title:  title,
 	}
 }
-
